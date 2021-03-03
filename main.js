@@ -128,10 +128,10 @@ var ctx = document.getElementById('thirdChart').getContext('2d');
 var thirdChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
-        labels: ['Fuel left', 'Fuel used '],
+        labels: ['% Fuel left', '% Fuel used '],
 
         datasets: [{
-            label: 'Fuel',
+            label: 'Fuel in %',
             data: [69, 31],
             backgroundColor: [
                 'rgba(196, 69, 54, 1)',
